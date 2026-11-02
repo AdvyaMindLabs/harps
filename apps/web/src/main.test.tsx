@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { createElement } from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
-import { App } from './main';
+import { App } from './App';
 
 describe('HARPS landing page', () => {
   const html = renderToStaticMarkup(createElement(App));
